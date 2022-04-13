@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -32,7 +34,157 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+div,
+p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.head-section {
+  width: 416px;
+  margin: 0 auto;
+}
+
+.feature {
+  /* Heading/HEADING Tiny */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+  letter-spacing: 0.39em;
+
+  color: #515151;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.title {
+  /* Heading/Heading Medium */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  /* or 123% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Black */
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.subtitle {
+  /* Paragraph/Paragraph Regular */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.mycard {
+  text-align: center;
+}
+
+.mycard div {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 14px 0px;
+}
+
+.mycard p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #999999;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 14px 0px;
+}
+
+.button {
+  display: inline-block;
+  padding: 17px 27px;
+
+  background: #903DDF;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  margin: 64px 0px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  letter-spacing: -0.01em;
+
+  color: #FFFFFF;
 }
